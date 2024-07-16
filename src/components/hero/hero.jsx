@@ -9,7 +9,7 @@ const Hero = () => {
                 <div>
                     <div className={styles.left}>
                         <img src={getImageUrl("logo.png")} alt="logo" />
-                        <h1>Welcome to Little Explorers Creche.</h1>
+                        <h1>Welcome to Little Explorers Crèche.</h1>
                         <p>{`Welcome to Little Explorers! 🌟 Safe, secure, and nurturing environment for your child's growth. Experienced staff, early learning, flexible hours. Cozy nap areas, fun play zones, nutritious meals. Enroll now!`}</p>
                         <span>{`No 2, KG 327. Behind MTN Center. Nyarutarama, Kigali, Rwanda`}</span>
                         <button>Our Offers</button>
