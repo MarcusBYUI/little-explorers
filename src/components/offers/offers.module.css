@@ -27,6 +27,8 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 1.08px;
+    position: relative;
+    z-index: 2;
 }
 
 .offers>div {
@@ -94,13 +96,13 @@
 .planet {
     position: absolute;
     top: 10%;
-    left: 20%;
+    left: 10%;
     width: 80px;
 }
 
 .abc {
     position: absolute;
     top: 5%;
-    right: 10%;
+    right: 5%;
     width: 140px;
 }
