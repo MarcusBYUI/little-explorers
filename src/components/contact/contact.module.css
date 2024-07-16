@@ -65,3 +65,7 @@
     line-height: normal;
     text-align: center;
 }
+
+.item {
+    cursor: pointer;
+}
