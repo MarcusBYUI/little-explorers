@@ -1,0 +1,64 @@
+.qualities {
+    padding: 40px 0;
+}
+
+.qualities h2 {
+    max-width: 376px;
+    margin: 20px auto;
+    color: #458BDD;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.qualities>div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 270px));
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 95%;
+    gap: 40px;
+}
+
+.qualities>div div img {
+    display: block;
+    margin: 15px auto;
+    width: 60px;
+}
+
+.qualities>div div {
+    background-color: #E9EFF5;
+    stroke-width: 2px;
+    stroke: #E9EFF5;
+    padding: 20px 26px;
+    border-radius: 12px;
+    border: 2px solid #E9EFF5;
+}
+
+.qualities>div div p {
+    color: #3972FF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.qualities>div div span {
+    display: block;
+    color: #3972FF;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}

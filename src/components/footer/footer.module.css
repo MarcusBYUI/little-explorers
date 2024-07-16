@@ -1,0 +1,55 @@
+.footer {
+    margin-top: -30px;
+    background: #000000;
+    padding: 0 5%;
+    padding-top: 80px;
+}
+
+.footer img {
+    width: 80px;
+}
+
+.footer h2 {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.footer>p {
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    max-width: 550px;
+}
+
+.footer a {
+    color: #d3d3d3;
+    text-decoration: underline;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.footer>div {
+    margin-top: 35px;
+    border-top: 1px solid #737373;
+    padding-bottom: 25px;
+}
+
+.footer>div p {
+    text-align: center;
+    color: #737373;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
