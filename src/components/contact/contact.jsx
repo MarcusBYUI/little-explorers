@@ -7,7 +7,7 @@ const Contact = () => {
         {
             img: "whatsapp.png",
             text: "Chat Us On WhatsApp",
-            link: "https://wa.link/j607ga"
+            link: "http://wa.me/250795303566"
         },
         {
             img: "messenger.png",
@@ -22,7 +22,7 @@ const Contact = () => {
         {
             img: "call.png",
             text: "Call In",
-            link: "tel:+250794778307"
+            link: "tel:+250795303566"
         },
 
     ], [])
