@@ -15,16 +15,16 @@ function App() {
   return (
     <HelmetProvider>
       <Helmet>
-        <title>Little Explorers Crèche | Kigali-Rwanda</title>
+        <title>Little Explorers Crèche</title>
         <meta name="description" content="Safe, secure, nurturing environment for growth. Daycare with experienced staff, early learning, flexible hours, cozy naps, fun play, nutritious meals. Enroll now!" />
         <meta property="og:title" content="Little Explorers Crèche | Kigal-Rwanda" />
         <meta property="og:description" content="Safe, secure, nurturing environment for growth. Daycare with experienced staff, early learning, flexible hours, cozy naps, fun play, nutritious meals. Enroll now!" />
       </Helmet>
       <Header />
-      <Hero targetRef={ref}/>
+      <Hero targetRef={ref} />
       <Qualities />
-      <About targetRef={ref}/>
-      <Offers targetRef={ref}/>
+      <About targetRef={ref} />
+      <Offers targetRef={ref} />
       <Contact />
       <Footer />
     </HelmetProvider>
