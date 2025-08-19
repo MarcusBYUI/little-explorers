@@ -3,7 +3,7 @@ import styles from "./offers.module.css"
 import { getImageUrl } from "../../helpers/utils";
 import PropTypes from "prop-types";
 
-const Offers = ({targetRef}) => {
+const Offers = ({ targetRef }) => {
     const list = useMemo(() => [
         {
             img: "timetable.png",
@@ -24,14 +24,14 @@ const Offers = ({targetRef}) => {
             header: "Our Regulations",
             description: "Safe, secure, and structured environment promoting children's well-being.",
             action: "View Regulations",
-            link: `${window.location.origin}/regulation.pdf`
+            link: `${window.location.origin}/#`
         },
         {
             img: "tuition.png",
             header: "Tuition",
             description: "Affordable, transparent pricing with flexible payment options available.",
             action: "View Tuition",
-            link: `${window.location.origin}/fees.pdf`
+            link: `${window.location.origin}/#`
         },
     ], [])
     return (
@@ -41,20 +41,20 @@ const Offers = ({targetRef}) => {
             <p>Educational Plan</p>
             <h2>Learn More About Our Offers</h2>
             <div >
-                {list.map((item, index)=>{
+                {list.map((item, index) => {
                     return <div key={index} className={styles.offer}>
-                    <img src={getImageUrl(item.img)} alt={item.header} />
-                    <div>
-                        <p>{item.header}</p>
-                        <span>{item.description}</span>
-                        <div onClick={()=>window.open(item.link)}>
-                            <span>{item.action}</span>
-                            <img src={getImageUrl("arr.png")} alt="arr" />
+                        <img src={getImageUrl(item.img)} alt={item.header} />
+                        <div>
+                            <p>{item.header}</p>
+                            <span>{item.description}</span>
+                            <div onClick={() => window.open(item.link)}>
+                                <span>{item.action}</span>
+                                <img src={getImageUrl("arr.png")} alt="arr" />
+                            </div>
                         </div>
                     </div>
-                </div>
                 })}
-                
+
             </div>
 
         </div>
